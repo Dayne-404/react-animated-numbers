@@ -64,10 +64,10 @@ const AnimatedNumber = ({
 
             return (
               <div key={index} style={{ height: numberHeight, width: numberWidth }}>
-                {NUMBERS.map((number) => (
+                {NUMBERS.map((number, numIndex) => (
                   <motion.div
                     style={{ ...fontStyle, fontVariantNumeric: "tabular-nums" }}
-                    key={`${keyCount.current++}`}
+                    key={numIndex}
                     initial="hidden"
                     variants={{
                       hidden: { y: 0 },
