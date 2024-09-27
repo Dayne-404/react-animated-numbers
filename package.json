@@ -1,6 +1,6 @@
 {
   "name": "react-animated-numbers",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "description": "Library showing animation of number changes in react.js",
   "main": "./dist/index.js",
   "files": [
@@ -8,8 +8,8 @@
     "index.d.ts"
   ],
   "typings": "index.d.ts",
-  "repository": "https://github.com/heyman333/react-animated-numbers.git",
-  "author": "youngsoohan <amazingmobdev@gmail.com>",
+  "repository": "https://github.com/Dayne-404/react-animated-numbers.git",
+  "author": "Dayne Dellaire <daynedell@gmail.com>",
   "homepage": "https://optimistic-noyce-cf2473.netlify.app/",
   "license": "MIT",
   "private": false,
